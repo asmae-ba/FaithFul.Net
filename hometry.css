@@ -1,0 +1,152 @@
+/* Global Styles */
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header Styles */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1rem 0;
+}
+
+header .logo {
+    float: left;
+}
+
+header nav {
+    float: left;
+    margin-left: 2rem;
+}
+
+header nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header .search-bar {
+    float: right;
+    margin-right: 2rem;
+}
+
+header .search-bar input {
+    padding: 0.5rem;
+    border: none;
+    border-radius: 3px;
+}
+
+header .user-account {
+    float: right;
+    margin-right: 1rem;
+}
+
+header .user-account a {
+    color: white;
+    text-decoration: none;
+    margin-left: 0.5rem;
+}
+
+/* Main Banner Styles */
+.main-banner {
+    background-color: #e1f5fe;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.main-banner .banner-content h2 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+.main-banner .banner-content p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.main-banner .btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 3px;
+    text-decoration: none;
+    margin: 0 0.5rem;
+}
+
+/* Featured Sections Styles */
+.featured-sections {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0;
+    background-color: #fff;
+    border-top: 1px solid #ddd;
+}
+
+.featured-sections .section {
+    width: 22%;
+    text-align: center;
+}
+
+.featured-sections .section h3 {
+    margin-top: 0;
+}
+
+.featured-sections .section p {
+    font-size: 1rem;
+    color: #777;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+footer .quick-links,
+footer .social-media {
+    margin-bottom: 1rem;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 0.5rem;
+}
+
+footer .newsletter input {
+    padding: 0.5rem;
+    border: none;
+    border-radius: 3px;
+}
+
+footer .newsletter button {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 3px;
+    background-color: #4CAF50;
+    color: white;
+    margin-left: 0.5rem;
+}

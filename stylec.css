@@ -1,0 +1,17 @@
+.nav-link {
+    position: absolute;
+    right: -200px;
+    transition: right 0.3s;
+}
+
+.fa-times {
+    display: none;
+}
+
+.fa-bars {
+    cursor: pointer;
+}
+
+.nav-link.show {
+    right: 0;
+}
